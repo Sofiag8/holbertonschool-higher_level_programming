@@ -1,0 +1,7 @@
+}".format(my_list[number]), end='')
+         lenght += 1
+     except (TypeError, ValueError):
+      pass
+ print('')
+ return lenght
+
