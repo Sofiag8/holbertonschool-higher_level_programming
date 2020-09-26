@@ -6,8 +6,8 @@ def add_integer(a, b=98):
     """ Method that add two integers of floats
 
     Args:
-        a (int or float): first parameter
-        b (int or float): second parameter
+        a (int or float): first parameter.
+        b (int or float): second parameter.
 
     Raises:
         TypeError: If first parameter or second parameter are
