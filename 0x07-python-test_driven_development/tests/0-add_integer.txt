@@ -130,3 +130,7 @@ Test for none int or float.
      >>> add_integer(float('inf'), 2)
      Traceback (most recent call last):
      OverflowError: cannot convert float infinity to integer
+
+     >>> add_integer(float("Nan"))
+     Traceback (most recent call last):
+     ValueError: cannot convert Float NaN to integer
