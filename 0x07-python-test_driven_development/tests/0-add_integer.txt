@@ -11,8 +11,8 @@ Now use it:
 
 Tests for positive integers parameters.
 
-      >>> add_integer(2, 2)
-      4
+      >>> add_integer(1, 2)
+      3
       >>> add_integer(100, 67)
       167
       >>> add_integer(9, 15)
@@ -25,8 +25,8 @@ Tests for positive integers parameters.
 
 Tests for negative integers parameters.
 
-      >>> add_integer(4, -4)
-      0
+      >>> add_integer(1, -2)
+      -1
       >>> add_integer(-8, -19)
       -27
       >>> add_integer(-10, 77)
@@ -36,8 +36,8 @@ Tests for negative integers parameters.
 
 Tests for positive float parameters.
 
-      >>> add_integer(34.12, 4.7)
-      38
+      >>> add_integer(1.4, 2)
+      3
       >>> add_integer(1024.87, 56.7)
       1080
       >>> add_integer(12.8, 33.1)
@@ -83,7 +83,7 @@ Test for more than two parameters passed.
 
 Test for none int or float.
 
-     >>> add_integer("String", 10)
+     >>> add_integer(1, "2")
      Traceback (most recent call last):
      TypeError: a must be an integer
 
