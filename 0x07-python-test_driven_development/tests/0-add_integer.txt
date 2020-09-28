@@ -85,7 +85,7 @@ Test for none int or float.
 
      >>> add_integer(1, "2")
      Traceback (most recent call last):
-     TypeError: a must be an integer
+     TypeError: b must be an integer
 
      >>> add_integer(5, "String")
      Traceback (most recent call last):
@@ -133,4 +133,4 @@ Test for none int or float.
 
      >>> add_integer(float("Nan"))
      Traceback (most recent call last):
-     ValueError: cannot convert Float NaN to integer
+     ValueError: cannot convert float NaN to integer
