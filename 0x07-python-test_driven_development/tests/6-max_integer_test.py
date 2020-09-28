@@ -20,5 +20,5 @@ class TestMaxInteger(unittest.TestCase):
         self.assertEqual(max_integer([2.3, 5.6, 1.2, 10.4]), 10.4)
         self.assertEqual(([8]), 8)
 
-if __name__  == '__main__':
+if __name__ == '__main__':
     unittest.main()
