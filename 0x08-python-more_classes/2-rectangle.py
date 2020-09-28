@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-""" Class Rectangle with private instances width and height """
+""" Class Rectangle with private instances width and height
+and public intances area and perimeter """
 
 
 class Rectangle:
