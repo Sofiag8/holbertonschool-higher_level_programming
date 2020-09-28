@@ -1,4 +1,4 @@
-<p align="center"><h1 class="gap">Project 0x08. Python - More Classes and Objects</h1></p>
+<h1 class="gap">Project 0x08. Python - More Classes and Objects</h1>
 
 <div align="center">
  <p><img src="https://www.python-course.eu/images/data_abstraction.png" alt="" style="" /></p>
