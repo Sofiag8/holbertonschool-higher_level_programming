@@ -88,11 +88,11 @@ class Rectangle:
         Returns:
             print the rectangle with the character #
         """
-        draw = ""
+        empty = ""
         if self.__width == 0 or self.__height == 0:
-            return draw
+            return empty
         for h in range(self.__height):
             for w in range(self.__width):
-                draw = draw + "#"
-            draw = draw + '\n'
-        return draw[:-1]
+                empty = empty + "#"
+            empty = empty + '\n'
+        return empty[:-1]
