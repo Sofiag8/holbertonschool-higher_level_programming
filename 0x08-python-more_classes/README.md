@@ -1,7 +1,8 @@
 <h1 class="gap">Project 0x08. Python - More Classes and Objects</h1>
 
+<div align="center">
  <p><img src="https://www.python-course.eu/images/data_abstraction.png" alt="" style="" /></p>
-
+</div>
 
 <h2>Learning Objectives</h2>
 <p> At the end of this project I should know:</p>
