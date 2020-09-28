@@ -1,4 +1,0 @@
-#!/usr/bin/python3
-def upper_alphabet():
-    for check_char in range('A', 'Z'):
-        print("{}".format(check_char), end='')
