@@ -10,6 +10,7 @@ class Rectangle:
     """ public class attribute initialized in 0 """
 
     print_symbol = "#"
+    """ Public class attribute used as any symbol for str representation """
 
     def __init__(self, width=0, height=0):
         """
