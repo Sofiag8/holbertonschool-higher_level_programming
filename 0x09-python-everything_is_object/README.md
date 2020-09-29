@@ -1,4 +1,6 @@
+<div align="center">
 <h1 class="gap">Project 0x09. Python - Everything is object</h1>
+</div>
 
 <div align="center">
  <p><img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/252/r_208403_QPSN8.jpg" alt="" style="" /><br /></p>
