@@ -1,7 +1,8 @@
 <h1 class="gap">Project 0x09. Python - Everything is object</h1>
 
+<div align="center">
  <p><img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/252/r_208403_QPSN8.jpg" alt="" style="" /><br /></p>
-
+</div>
 
 <h2>Background Context</h2>
 <p> Now that I have a little bit knowledge in python, this project is about working with different types of objects. </p>
