@@ -103,4 +103,4 @@ class Rectangle:
 
     def __del__(self):
         """ destruction """
-        print("Bye rectangle . . . ")
+        print("Bye rectangle...")
