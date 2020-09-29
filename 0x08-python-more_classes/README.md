@@ -52,9 +52,7 @@
 <li>The length of your files will be tested using <code>wc</code></li>
 </ul>
 
-
-
-      <h2 class="gap">Tasks</h2>
+<h2 class="gap">Tasks</h2>
 
 
  <h4 class="task">
