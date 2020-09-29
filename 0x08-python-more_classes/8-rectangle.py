@@ -116,9 +116,23 @@ class Rectangle:
 
     @staticmethod
     def bigger_or_equal(rect_1, rect_2):
-        """ static method that returns the biggest rectangle
-        based on the area
+        """ static method which is a method that we can call via the class name
+        or via the instance name without the necessity of passing a reference
+        to an instance to it.
+        static method dont need a reference to an instance
+        its decorator syntax is @staticmethod.
+
+        Args:
+            rect_1 (Rectangle instance): firs rectangle to compare
+            rect_2 (Rectangle instance): second rectangle to compare
+
+        Raises:
+            TypeError: if rect_1 or rect_2 are not instances of Rectangle
+
+        Returns:
+            the biggets rectangle based on the area
         """
+
         if type(rect_1) is not Rectangle:
             raise TypeError("rect_1 must be an instance of Rectangle")
         if type(rect_2) is not Rectangle:
