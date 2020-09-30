@@ -368,7 +368,7 @@ Publish your blog post on Medium or LinkedIn, and share it at least on LinkedIn.
 
 <p>Please, remember that these blogs must be written in English to further your technical ability in a variety of settings.</p>
 
-<p> My blog is posted on Linkedin <a href="https://www.linkedin.com/pulse/python-mutable-immutable-everything-object-diana-sofia-garc%25C3%25ADa-caicedo/?trackingId=VLIvB8R8RSCbPh6%2BkIuglg%3D%3D" title="click here"</a></p>
+
 
  <h4 class="task">
     35. Clear strings
