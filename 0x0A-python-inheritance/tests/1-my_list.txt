@@ -1,14 +1,14 @@
 The ``1-my_list`` module
 ========================
 
-Using ``my_list``
+Using ``MyList``
 
 ------------------------
 
 Importing method:
 	  >>> MyList = __import__('1-my_list').MyList
 
-Tests:
+Now use it:
 
 	>>> my_list = MyList()
 	>>> my_list.append(1)
