@@ -76,3 +76,7 @@ Now use it:
 	>>> my_list = MyList()
 	>>> type(my_list) == MyList
 	True
+
+	>>> my_list = MyList([5, 2, 8])
+	>>> my_list.print_sorted()
+	[2, 5, 8]
