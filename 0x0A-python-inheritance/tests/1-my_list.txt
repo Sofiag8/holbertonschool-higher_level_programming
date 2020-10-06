@@ -29,13 +29,9 @@ Now use it:
 	Traceback (most recent call last):
 	TypeError: unorderable types: int() < str()
 
-        >>> my_list = MyList("Hello, World")
-        >>> my_list.append(1)
-        >>> my_list.append(4)
-        >>> my_list.append(2)
-        >>> my_list.append(3)
-        >>> print(my_list)
-	['H', 'e', 'l', 'l', 'o', ',', ' ', 'W', 'o', 'r', 'l', 'd', 1, 4, 2, 3]
+        >>> my_list = MyList("Hello")
+	>>> print(my_list)
+	['H', 'e', 'l', 'l', 'o']
 
 	>>> my_list = MyList()
         >>> my_list.append(-1)
