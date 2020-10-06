@@ -5,7 +5,7 @@ Using ``MyList``
 
 ------------------------
 
-Importing method:
+Importing class:
 	  >>> MyList = __import__('1-my_list').MyList
 
 Now use it:
