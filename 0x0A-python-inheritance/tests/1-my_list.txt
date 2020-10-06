@@ -74,3 +74,7 @@ Now use it:
 
 	>>> print(my_list is new_list)
 	False
+
+	>>> my_list.append(-3)
+	>>> my_list.print_sorted()
+	[-3, 8, 432, 1123, 2020, 789543]
