@@ -72,3 +72,7 @@ Now use it:
 	>>> my_list = MyList()
 	>>> isinstance(my_list, MyList)
 	True
+
+	>>> my_list = MyList()
+	>>> type(my_list) == MyList
+	True
