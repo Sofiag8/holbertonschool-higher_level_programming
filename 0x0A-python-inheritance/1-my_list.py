@@ -3,6 +3,7 @@
 
 
 class MyList(list):
+    """ class my list"""
     def print_sorted(self):
         """ public instance method definition
         prints a sorted list (ascending sort)
