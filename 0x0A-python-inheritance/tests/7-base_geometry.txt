@@ -63,10 +63,6 @@ Now use it:
     Traceback (most recent call last):
     TypeError: my_int must be an integer
 
-
-    >>> bg = BaseGeometry()
-    >>> bg.integer_validator(None, 1)
-
     >>> bg = BaseGeometry()
     >>> bg.integer_validator("my_int", 8)
 
@@ -83,3 +79,17 @@ Now use it:
     >>> bg.area(8)
     Traceback (most recent call last):
     TypeError: area() takes 1 positional argument but 2 were given
+
+    >>> bg = BaseGeometry()
+    >>> isinstance(bg, BaseGeometry)
+    True
+
+    >>> bg = BaseGeometry()
+    >>> bg.integer_validator("my_int", {"key": 8})
+    Traceback (most recent call last):
+    TypeError: my_int must be an integer
+
+    >>> bg = BaseGeometry()
+    >>> bg.integer_validator("my_int", True)
+    Traceback (most recent call last):
+    TypeError: my_int must be an integer
