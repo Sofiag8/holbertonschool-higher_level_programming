@@ -19,10 +19,6 @@ Now use it:
 	>>> my_list.print_sorted()
 	[1, 2, 3, 4, 5]
 
-        >>> my_list = MyList("Hello")
-	>>> print(my_list)
-	['H', 'e', 'l', 'l', 'o']
-
 	>>> my_list = MyList()
         >>> my_list.append(-1)
         >>> my_list.append(4)
@@ -32,10 +28,6 @@ Now use it:
         >>> my_list.print_sorted()
 	[-5, -3, -1, 2, 4]
 
-
-	>>> my_list = MyList("Awesome")
-	>>> my_list.print_sorted()
-	['A', 'e', 'e', 'm', 'o', 's', 'w']
 
 	>>> my_list = MyList()
         >>> my_list.print_sorted()
@@ -50,20 +42,8 @@ Now use it:
 	>>> my_list.print_sorted()
 	[8, 432, 1123, 2020, 789543]
 
-	>>> my_list = MyList()
-	>>> my_list.append(789543)
-	>>> my_list.append(1123)
-	>>> my_list.append(432)
-	>>> my_list.append(8)
-	>>> my_list.append(2020)
 	>>> print(my_list)
 	[789543, 1123, 432, 8, 2020]
-
-	>>> new_list = my_list.print_sorted()
-	[8, 432, 1123, 2020, 789543]
-
-	>>> print(my_list is new_list)
-	False
 
 	>>> my_list.append(-3)
 	>>> my_list.print_sorted()
