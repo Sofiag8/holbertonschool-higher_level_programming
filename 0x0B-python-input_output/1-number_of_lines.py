@@ -8,6 +8,4 @@ def number_of_lines(filename=""):
         filename (str): the passed file
     """
     with open(filename, encoding='utf-8') as file:
-        for line_num, line in enumerate(file):
-            pass
-    return line_num + 1
+        return len(file.readlines())
