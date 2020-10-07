@@ -66,3 +66,15 @@ Now use it:
     >>> bg.integer_validator("my_int", [1, 2, 3])
     Traceback (most recent call last):
     TypeError: my_int must be an integer
+
+
+    >>> bg = BaseGeometry()
+    >>> bg.integer_validator(None, 1)
+
+    >>> bg = BaseGeometry()
+    >>> bg.integer_validator("my_int", 8)
+
+    >>> bg = BaseGeometry()
+    >>> bg.area()
+    Traceback (most recent call last):
+    Exception: area() is not implemented
