@@ -78,3 +78,12 @@ Now use it:
     >>> bg.area()
     Traceback (most recent call last):
     Exception: area() is not implemented
+
+    >>> bg = BaseGeometry()
+    >>> type(bg) == BaseGeometry
+    True
+
+    >>> bg = BaseGeometry()
+    >>> bg.area(8)
+    Traceback (most recent call last):
+    TypeError: area() takes 1 positional argument but 2 were given
