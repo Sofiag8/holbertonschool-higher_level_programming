@@ -6,7 +6,7 @@ def pascal_triangle(n):
     """ pascal triangle definition returns a list of lists of integers """
     list_of_lists = []
     row = []
-    pre_row = []
+    prev_row = []
 
     if n <= 0:
         return []
