@@ -72,7 +72,7 @@ class Rectangle(Base):
             raise ValueError("height must be >= 0")
         self.__height = height
 
-    @height.setter
+    @x.setter
     def x(self, x):
         """ x setter
         Raises:
@@ -85,7 +85,7 @@ class Rectangle(Base):
             raise ValueError("x must be >= 0")
         self.__x = x
 
-    @height.setter
+    @y.setter
     def y(self, y):
         """ y setter
         Raises:
