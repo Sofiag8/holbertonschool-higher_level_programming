@@ -115,3 +115,13 @@ class Rectangle(Base):
         return ("[Rectangle] (" + str(self.id) + ") " +
                 str(self.__x) + "/" + str(self.__y) + " - " +
                 str(self.__width) + "/" + str(self.__height))
+
+    def update(self, *args, **kwargs):
+        """ public method update """
+        if args != ():
+            arguments = ["id", "widht", "height", "x", "y"]
+            for i, j in enumerate(args):
+                setattr(self, arguments[i], j)  # setting position to attribute
+        else:
+            for s in kwargs:
+                setattr(self, s, kwargs[s])
