@@ -118,7 +118,7 @@ class Rectangle(Base):
 
     def update(self, *args, **kwargs):
         """ public method update """
-        if args != ():
+        if args:
             arguments = ["id", "widht", "height", "x", "y"]
             for i, j in enumerate(args):
                 setattr(self, arguments[i], j)  # setting position to attribute
