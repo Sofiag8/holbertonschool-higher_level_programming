@@ -121,7 +121,7 @@ class Rectangle(Base):
         arguments = ["id", "widht", "height", "x", "y"]
         if args:
             for i in range(len(args)):
-                setattr(self, arguments[i], args[i])  # setting position to attr
+                setattr(self, arguments[i], args[i])  # setting position to atr
         else:
             for s, g in kwargs.items():
                 if hasattr(self, s):
