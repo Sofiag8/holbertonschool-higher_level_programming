@@ -101,3 +101,11 @@ class Rectangle(Base):
     def area(self):
         """ area definition"""
         return self.width * self.height
+
+    def display(self):
+        """ prints in the stdout the rectangle instance with # """
+        for y in range(self.y):
+            print()
+        for a in range(self.height):
+            print(' ' * self.x, end='')
+            print("#" * self.width)
