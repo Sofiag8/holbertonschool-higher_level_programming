@@ -126,3 +126,8 @@ class Rectangle(Base):
             for s, g in kwargs.items():
                 if hasattr(self, s):
                     setattr(self, s, g)
+
+    def to_dictionary(self):
+        """ dict definition """
+        return {"id": self.id, "width": self.width, "height": self.height,
+                "x": self.x, "y": self.y}
