@@ -118,11 +118,11 @@ class Rectangle(Base):
 
     def update(self, *args, **kwargs):
         """ public method update """
+        arguments = ["id", "widht", "height", "x", "y"]
         if args:
-            arguments = ["id", "widht", "height", "x", "y"]
-            for i, j in enumerate(args):
-                setattr(self, arguments[i], j)  # setting position to attribute
-            return
-        for s, g in kwargs.items():
+            for i in range(len(args)):
+                setattr(self, arguments[i], args[i])  # setting position to attr
+        else:
+            for s, g in kwargs.items():
                 if hasattr(self, s):
                     setattr(self, s, g)
