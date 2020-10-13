@@ -26,3 +26,14 @@ class Square(Rectangle):
         """ string representation """
         return "[Square] ({}) {}/{} - {}".format(self.id, self.x,
                                                  self.y, self.width)
+
+    def update(self, *args, **kwargs):
+        """ public method update definition """
+        if args:
+            arguments = ["id", "size", "x", "y"]
+            for i in range(len(args)):
+                setattr(self, arguments[i], args[i])  # setting position to atr
+        else:
+            for s, g in kwargs.items():
+                if hasattr(self, s):
+                    setattr(self, s, g)
