@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """ first class Base """
 import json
+from os import path
 
 
 class Base:
@@ -46,3 +47,15 @@ class Base:
         dummy_instance = cls(1, 1) if cls.__name__ == "Rectangle" else cls(1)
         dummy_instance.update(**dictionary)
         return dummy_instance
+
+    @classmethod
+    def load_from_file(cls):
+        """ definition """
+        filename = cls.__name__ + ".json"
+        if path.exists(filename):
+            with open(filename, "r", encoding="utf-8") as file:
+                dictionary = cls.from_json_string(file.read())
+                list_of_instances = [cls.create(**inst) for inst in dictionary]
+                return list_of_instances
+        else:
+            return []
