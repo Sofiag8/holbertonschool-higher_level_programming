@@ -118,10 +118,9 @@ class Rectangle(Base):
 
     def update(self, *args, **kwargs):
         """ public method update """
-        arguments = ["id", "widht", "height", "x", "y"]
+        arguments = ["id", "width", "height", "x", "y"]
         if args and len(args) != 0:
             i = 0
-            arguments = ["id", "widht", "height", "x", "y"]
             for i in range(len(args)):
                 setattr(self, arguments[i], args[i])
         else:
