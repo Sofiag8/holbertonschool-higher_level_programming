@@ -60,9 +60,10 @@ Password:
 $ sudo service mysql restart
 </code></pre>
 
-      <hr class="gap">
-      <h2 class="gap">Tasks</h2>
- <h4 class="task">
+<hr class="gap">
+<h2 class="gap">Tasks</h2>
+
+<h4 class="task">
     0. My privileges!
 </h4>
  <p>Write a script that lists all privileges of the MySQL users <code>user_0d_1</code> and <code>user_0d_2</code> on your server (in <code>localhost</code>).</p>
