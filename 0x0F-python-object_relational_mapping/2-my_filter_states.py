@@ -16,7 +16,7 @@ if __name__ == '__main__':
                                 db=argv[3],
                                 charset="utf8")
     cur = data_base.cursor()
-    input_query = cur.execute(""" SELECT * FROM states WHERE name LIKE BINARY
+    cur.execute(""" SELECT * FROM states WHERE name LIKE BINARY
     '{}' ORDER BY id ASC """.format(argv[4]))
     rows = cur.fetchall()
     for row in rows:
