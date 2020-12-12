@@ -11,3 +11,5 @@ rows = cur.execute("SELECT * FROM states WHERE NAME like 'N%' ORDER BY id ASC")
 for i in range(rows):
     result = cur.fetchone()
     print(result)
+cur.close()
+db.close()
