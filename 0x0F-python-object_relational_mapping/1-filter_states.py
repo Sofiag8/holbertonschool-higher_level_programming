@@ -3,13 +3,18 @@
 import MySQLdb
 from sys import argv
 
-db = MySQLdb.connect(host="localhost", port=3306,
-                     user=argv[1], passwd=argv[2],
-                     db=argv[3], charset="utf8")
-cur = db.cursor()
-rows = cur.execute("SELECT * FROM states WHERE NAME like 'N%' ORDER BY id ASC")
-for i in range(rows):
-    result = cur.fetchone()
-    print(result)
-cur.close()
-db.close()
+if __name__ == '__main__':
+
+    data_base = MySQLdb.connect(host="localhost",
+                                port=3306,
+                                user=argv[1],
+                                passwd=argv[2],
+                                db=argv[3],
+                                charset="utf8")
+    cur = data_base.cursor()
+    cur.execute("SELECT * FROM states WHERE NAME like 'N%' ORDER BY id ASC")
+    rows = cur.fetchall()
+    for row in rows:
+        print(row)
+    cur.close()
+    data_base.close()
