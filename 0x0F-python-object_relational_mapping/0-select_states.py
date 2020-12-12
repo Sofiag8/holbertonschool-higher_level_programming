@@ -11,3 +11,5 @@ rows = cur.execute("SELECT * FROM states ORDER BY id ASC")
 for i in range(rows):
     result = cur.fetchone()
     print(result)
+cur.close()
+db.close()
