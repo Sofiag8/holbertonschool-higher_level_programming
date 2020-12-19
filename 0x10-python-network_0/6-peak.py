@@ -10,7 +10,7 @@ def find_peak(list_of_integers):
     """
     left = 0
     right = len(list_of_integers) - 1
-    if list_of_integers == None or len(list_of_integers) == 1:
+    if list_of_integers is None:
         return None
     while left < right:
         mid = (left + right) // 2
