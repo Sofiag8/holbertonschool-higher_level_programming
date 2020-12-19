@@ -1,2 +1,1 @@
-# efficiency 
-O(logN)
+O(log(n))
