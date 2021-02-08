@@ -1,4 +1,4 @@
-# Project: 0x13. Javascript - Objects, Scopes and Closures | Holberton Intranet
+# Project: 0x13. Javascript - Objects, Scopes and Closures 
 
 #### Learning Objectives 
 At the end of this project we are expected to have the following knowledge:
